@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	float valor1;  //variable tipo float
+	double valor2; //variable tipo double
+	long double valor3; //valor tipo long double
+
+	printf("Ingrese un valor tipo float\n");
+	scanf("%f",&valor1);
+	printf("Ingrese un valor tipo double\n");
+	scanf("%lf",&valor2);
+	printf("Ingrese un valor tipo long double\n");
+	scanf("%Lf",&valor3);
+
+	printf("Valores leidos\n");
+	printf("%f\t%e\t%g\n",valor1,valor1,valor1);
+	printf("%f\t%e\t%g\n",valor2,valor2,valor2);
+	printf("%Lf\t%Le\t%Lg\n",valor3,valor3,valor3);
+  return 0;
+}

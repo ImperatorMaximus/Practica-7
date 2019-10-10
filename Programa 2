@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 int main(){
-	float valor1;  //variable tipo float
-	double valor2; //variable tipo double
-	long double valor3; //valor tipo long double
+	float valor1;  //variable de tipo float
+	double valor2; //variable de tipo double
+	long double valor3; //valor de tipo long double
 
-	printf("Ingrese un valor tipo float\n");
+	printf("Ingrese un valor de tipo float\n");
 	scanf("%f",&valor1);
-	printf("Ingrese un valor tipo double\n");
+	printf("Ingrese un valor de tipo double\n");
 	scanf("%lf",&valor2);
-	printf("Ingrese un valor tipo long double\n");
+	printf("Ingrese un valor de tipo long double\n");
 	scanf("%Lf",&valor3);
 
 	printf("Valores leidos\n");
